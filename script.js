@@ -436,7 +436,7 @@ function containsSnakeBlock(targetSquare, includeTail) {
 }
 
 function takeGameOverActions() {
-  const message = gameWon() ? "You won 🎉🎉!!" : "Game over!";
+  const message = gameWon() ? "You won 🎉🎉!!" : "Game over!" ; "Hope You Have Fun" ;
   updateHighScore();
   clearInterval(timerId);
   hidePauseButton();
